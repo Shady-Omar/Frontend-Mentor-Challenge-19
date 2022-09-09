@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(217, 19%, 24%);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0 / 10%);
+    box-shadow: rgb(0 0 0 / 20%) -6px 6px 24px;
     border-radius: 0.6rem;
     position: relative;
 }
@@ -58,7 +58,7 @@ body {
     transition: 0.3s;
     cursor: pointer;
     transform: translateY(25px);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0 / 10%);
+    box-shadow: rgb(0 0 0 / 20%) -6px 6px 24px;
 }
 
 .container button:hover {
@@ -68,7 +68,11 @@ body {
 .container button img {
     width: 20px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 1s;
+}
+
+.container button img:hover {
+    transform: rotate(360deg);
 }
 
 @media (max-width: 767px) {
