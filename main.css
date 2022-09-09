@@ -62,7 +62,7 @@ body {
 }
 
 .container button:hover {
-    box-shadow: hsl(150deg 100% 55%) 0px 0px 15px 0px;
+    box-shadow: hsl(150deg 100% 50%) 0px 0px 15px 0px;
 }
 
 .container button img {
