@@ -3,7 +3,7 @@ let advice:any = document.querySelector(".advice");
 let btn:any = document.querySelector(".btn");
 
 function quote() {
-  fetch("https://api.adviceslip.com/advice")
+  fetch("https://api.adviceslip.com/advice", {cache: 'no-cache'})
   .then(response => response.json())
   .then((data) => data.slip)
   .then((data) => {
